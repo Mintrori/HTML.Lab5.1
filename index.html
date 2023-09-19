@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            background-color: lightgreen;
+        }
+        td {
+            height: 30px;
+            vertical-align: middle;
+        }
+        .cent {
+            text-align: center;
+            background-color: tomato;
+            font-size: xx-large;
+        }
+        #button {
+            height: 70%;
+            width: 60%;
+            border: 0px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td colspan="2" class="cent">Register</td>
+            </tr>
+            <tr>
+                <td class="leftCol">First Name</td>
+                <td><input type="text" name="firstname"></td>
+            </tr>
+            <tr>
+                <td class="leftCol">Last Name</td>
+                <td><input type="text" name="lastname"></td>
+            </tr>
+            <tr>
+                <td class="leftCol">Email</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td class="leftCol">Password</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td class="leftCol">Confirm Password</td>
+                <td><input type="password" name="confirmPassword"></td>
+            </tr>
+            <tr>
+                <td class="leftCol">Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                    <input type="radio" name="gender" value="other">Other
+                    <input type="radio" name="gender" value="unspecified">Unspecified
+                </td>
+            </tr>
+            <tr>
+                <td class="leftCol">Date of Birth</td>
+                <td><input type="date" name="birth"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="cent"><input type="submit" name="submit" value="Register" id="button"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
